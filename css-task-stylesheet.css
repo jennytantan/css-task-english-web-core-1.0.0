@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'barlowextralight';
+    src: url('Barlow-ExtraLight-webfont.eot');
+    src: url('Barlow-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Barlow-ExtraLight-webfont.woff2') format('woff2'),
+         url('Barlow-ExtraLight-webfont.woff') format('woff'),
+         url('Barlow-ExtraLight-webfont.ttf') format('truetype'),
+         url('Barlow-ExtraLight-webfont.svg#barlowextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #EFF6FF;
+
+}
+.login-form{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: #EFF6FF;
+    padding: 40px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto; 
+    align-items: center; 
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+    
+}
+.form-img{
+    flex-basis: auto;
+    background: #FFFFFF;
+    background-size: cover;
+    padding: 40px;
+    align-items: center;
+    display: grid; 
+}
+.form-img img{
+    max-width: 500px;
+}
+.login-form h2{
+    text-align: left;
+    font-weight: 420;
+    font-size: x-large;
+    color: #2A4A5C;
+}
+.login-form h4{
+    line-height: 40px;
+    font-weight: 350;
+    font-size: medium;
+    color: #7B8A92;
+}
+.login-form p{
+    text-align: center;
+}
+.login-form h3{
+    text-align: left;
+    font-weight: 420;
+    font-size: large;
+    color: #2A4A5C;
+}
+.login-form h5{
+    line-height: 15px;
+    font-weight: 350;
+    font-size: smaller;
+    color: #7B8A92;
+}
+.login-form .main{
+    position: relative;
+    display: flex; 
+    margin: 30px 0; 
+}
+.content{
+    flex-basis: auto;
+    padding: 3em 3em;
+    background: #FFFFFF;
+    box-shadow: 2px 9px 49px -17px rgba(0,0,0,0.1);
+}
+
+* {
+  transition: all .2s ease;
+}
+
+.extra-info {
+  display: none;
+  line-height: 10px;
+  font-size: 10px;
+	position: absolute;
+  top: 0;
+  left: 50px;
+  width: 175px;
+}
+
+.info:hover .extra-info {
+  display: block;
+}
+
+.info {
+  font-size: 20px;
+  padding-left: 5px;
+  width: 20px;
+  border-radius: 15px;
+}
+
+.info:hover {
+  background-color: white;
+  padding: 0 0 0 5px;
+  width: 450px;
+  height: 80px;
+  text-align: left;
+}
+
+.checkbox{
+    font-size: x-small;
+    color: #AFAFAF;
+}
