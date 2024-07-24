@@ -10,7 +10,11 @@
     <div class="container">
         <div class="item">
             <div class="contact">
+            <div id="parent">
                 <img src="bg.jpg" alt="" class="image">
+                <img src="logo.svg" class="logo">
+            </div>
+            
             </div>
             <div class="submit-form">
             <h1 class="first-text">Get iintoo it today</h1>
@@ -24,8 +28,6 @@
                 <div class="input-box">
                     <input type="email" class="input">
                     <label for="">Email</label>
-                </div>
-                <div class="input-box">
                     <input type="tel" class="input">
                     <label for="">Phone</label>
                 </div>
@@ -53,7 +55,7 @@ I am a natural person investing on my own behalf as a sole owner, joint tenant, 
 <div class="checkbox">
 <input type="checkbox" name="terms" value="Agree">
 <label for="terms">I agree to the terms and receiving notifications from iintoo <a>View full terms.</a></label>
-                <input type="submit" value="Create Account">
+<button type="button" class="button3">Create Account</button>
             </form>
         </div>
         </div>

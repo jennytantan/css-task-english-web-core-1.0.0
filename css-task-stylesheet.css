@@ -38,8 +38,13 @@ body{
 .submit-form{
   background: #FFFFFF;
 }
+#parent{position: relative}
 .image{
   max-height: 700px;
+}
+.logo{
+  position: absolute;
+  top: 0;
 }
 .first-text{
   text-align: left;
