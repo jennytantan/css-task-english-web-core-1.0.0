@@ -10,9 +10,11 @@
     <div class="container">
         <div class="item">
             <div class="contact">
-            <div id="parent">
-                <img src="bg.jpg" alt="" class="image">
-                <img src="logo.svg" class="logo">
+            <div id="parent" style="position: relative;">
+                <div>
+                    <img src="logo.svg" class="logo"/ style="width: 20%; margin:30px; position: absolute;">
+                </div>
+                <img src="bg.jpg" alt="" class="image"/ >
             </div>
             
             </div>
